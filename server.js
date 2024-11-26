@@ -23,7 +23,7 @@ const allowedOrigins = [clientURI, roomURI];
 //Middleware
 app.use(express.json())
 app.use(cors({
-    origin: allowedOrigins
+    origin: "*"
 }))
 
 // Route
